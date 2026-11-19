@@ -56,7 +56,7 @@
    },
    "audio_lang": "deu",
    "status": "dead",
-   "fail_count": 2,
+   "fail_count": 3,
    "checked": "2026-11-19",
    "reason": "dwamdstream104.akamaized.net: HTTP 404"
   },
