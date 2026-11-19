@@ -1,0 +1,63 @@
+name: check-sources
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: check-sources
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        run: python -m unittest discover -s tests
+
+      - name: Check sources
+        run: python tools/check_sources.py --master sources_master.json --out sources.json --issue issue.md
+
+      - name: Sign
+        env:
+          VISION_SOURCES_KEY: ${{ secrets.VISION_SOURCES_KEY }}
+        run: python tools/sign_sources.py sign sources.json
+
+      - name: Verify signature
+        run: python tools/sign_sources.py verify sources.json
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add sources.json sources.json.sig
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "sources: daily check $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Issue about dead sources
+        if: ${{ hashFiles('issue.md') != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh issue list --state open --label sources-dead --json number --jq '.[0].number')
+          if [ -n "$n" ]; then
+            gh issue comment "$n" --body-file issue.md
+          else
+            gh label create sources-dead --color B60205 --description "dead sources" 2>/dev/null || true
+            gh issue create --title "Sources are not responding" --label sources-dead --body-file issue.md
+          fi
