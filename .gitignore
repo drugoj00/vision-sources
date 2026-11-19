@@ -1,0 +1,4 @@
+секреты/
+*.dpapi
+__pycache__/
+issue.md

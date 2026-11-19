@@ -1,0 +1,488 @@
+{
+ "schema": 1,
+ "updated": "2026-11-19",
+ "entries": [
+  {
+   "id": "ch-dw-en",
+   "kind": "channel",
+   "type": "hls",
+   "title": {
+    "ru": "DW English",
+    "uk": "DW English",
+    "en": "DW English"
+   },
+   "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+   "fallback": [],
+   "group": {
+    "ru": "Новости (официальные бесплатные эфиры)",
+    "uk": "Новини (офіційні безкоштовні ефіри)",
+    "en": "News (official free broadcasts)"
+   },
+   "lang": "en",
+   "rules_url": "https://www.dw.com/en/live-tv/channel-english",
+   "license": {
+    "ru": "официальный бесплатный поток",
+    "uk": "офіційний безкоштовний потік",
+    "en": "official free stream"
+   },
+   "audio_lang": "eng",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "ch-dw-de",
+   "kind": "channel",
+   "type": "hls",
+   "title": {
+    "ru": "DW Deutsch",
+    "uk": "DW Deutsch",
+    "en": "DW Deutsch"
+   },
+   "url": "https://dwamdstream104.akamaized.net/hls/live/2015526/dwstream104/index.m3u8",
+   "fallback": [],
+   "group": {
+    "ru": "Новости (официальные бесплатные эфиры)",
+    "uk": "Новини (офіційні безкоштовні ефіри)",
+    "en": "News (official free broadcasts)"
+   },
+   "lang": "de",
+   "rules_url": "https://www.dw.com/de/live-tv/s-100817",
+   "license": {
+    "ru": "официальный бесплатный поток",
+    "uk": "офіційний безкоштовний потік",
+    "en": "official free stream"
+   },
+   "audio_lang": "deu",
+   "status": "dead",
+   "fail_count": 2,
+   "checked": "2026-11-19",
+   "reason": "dwamdstream104.akamaized.net: HTTP 404"
+  },
+  {
+   "id": "ch-dw-es",
+   "kind": "channel",
+   "type": "hls",
+   "title": {
+    "ru": "DW Español",
+    "uk": "DW Español",
+    "en": "DW Español"
+   },
+   "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+   "fallback": [],
+   "group": {
+    "ru": "Новости (официальные бесплатные эфиры)",
+    "uk": "Новини (офіційні безкоштовні ефіри)",
+    "en": "News (official free broadcasts)"
+   },
+   "lang": "es",
+   "audio_lang": "spa",
+   "rules_url": "https://www.dw.com/es/",
+   "license": {
+    "ru": "официальный бесплатный поток",
+    "uk": "офіційний безкоштовний потік",
+    "en": "official free stream"
+   },
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "ch-dw-ar",
+   "kind": "channel",
+   "type": "hls",
+   "title": {
+    "ru": "DW (арабский)",
+    "uk": "DW (арабська)",
+    "en": "DW Arabia"
+   },
+   "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
+   "fallback": [],
+   "group": {
+    "ru": "Новости (официальные бесплатные эфиры)",
+    "uk": "Новини (офіційні безкоштовні ефіри)",
+    "en": "News (official free broadcasts)"
+   },
+   "lang": "ar",
+   "audio_lang": "ara",
+   "rules_url": "https://www.dw.com/ar/",
+   "license": {
+    "ru": "официальный бесплатный поток",
+    "uk": "офіційний безкоштовний потік",
+    "en": "official free stream"
+   },
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "ch-f24-en",
+   "kind": "channel",
+   "type": "hls",
+   "title": {
+    "ru": "FRANCE 24 English",
+    "uk": "FRANCE 24 English",
+    "en": "FRANCE 24 English"
+   },
+   "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+   "fallback": [
+    "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
+    "https://static.france24.com/live/F24_EN_HI_HLS/live_web.m3u8"
+   ],
+   "group": {
+    "ru": "Новости (официальные бесплатные эфиры)",
+    "uk": "Новини (офіційні безкоштовні ефіри)",
+    "en": "News (official free broadcasts)"
+   },
+   "lang": "en",
+   "rules_url": "https://www.france24.com/en/live",
+   "license": {
+    "ru": "официальный бесплатный поток",
+    "uk": "офіційний безкоштовний потік",
+    "en": "official free stream"
+   },
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "ch-f24-fr",
+   "kind": "channel",
+   "type": "hls",
+   "title": {
+    "ru": "FRANCE 24 Français",
+    "uk": "FRANCE 24 Français",
+    "en": "FRANCE 24 Français"
+   },
+   "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_2300.m3u8",
+   "fallback": [
+    "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_2300.m3u8",
+    "https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8"
+   ],
+   "group": {
+    "ru": "Новости (официальные бесплатные эфиры)",
+    "uk": "Новини (офіційні безкоштовні ефіри)",
+    "en": "News (official free broadcasts)"
+   },
+   "lang": "fr",
+   "rules_url": "https://www.france24.com/fr/direct",
+   "license": {
+    "ru": "официальный бесплатный поток",
+    "uk": "офіційний безкоштовний потік",
+    "en": "official free stream"
+   },
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "ch-f24-es",
+   "kind": "channel",
+   "type": "hls",
+   "title": {
+    "ru": "FRANCE 24 Español",
+    "uk": "FRANCE 24 Español",
+    "en": "FRANCE 24 Español"
+   },
+   "url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_2300.m3u8",
+   "fallback": [
+    "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_2300.m3u8",
+    "https://static.france24.com/live/F24_ES_HI_HLS/live_web.m3u8"
+   ],
+   "group": {
+    "ru": "Новости (официальные бесплатные эфиры)",
+    "uk": "Новини (офіційні безкоштовні ефіри)",
+    "en": "News (official free broadcasts)"
+   },
+   "lang": "es",
+   "rules_url": "https://www.france24.com/es/en-directo",
+   "license": {
+    "ru": "официальный бесплатный поток",
+    "uk": "офіційний безкоштовний потік",
+    "en": "official free stream"
+   },
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "ch-aje",
+   "kind": "channel",
+   "type": "hls",
+   "title": {
+    "ru": "Al Jazeera English",
+    "uk": "Al Jazeera English",
+    "en": "Al Jazeera English"
+   },
+   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+   "fallback": [],
+   "group": {
+    "ru": "Новости (официальные бесплатные эфиры)",
+    "uk": "Новини (офіційні безкоштовні ефіри)",
+    "en": "News (official free broadcasts)"
+   },
+   "lang": "en",
+   "rules_url": "https://www.aljazeera.com/live",
+   "license": {
+    "ru": "официальный бесплатный поток",
+    "uk": "офіційний безкоштовний потік",
+    "en": "official free stream"
+   },
+   "audio_lang": "eng",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "ch-nhk",
+   "kind": "channel",
+   "type": "hls",
+   "title": {
+    "ru": "NHK WORLD-JAPAN",
+    "uk": "NHK WORLD-JAPAN",
+    "en": "NHK WORLD-JAPAN"
+   },
+   "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
+   "fallback": [],
+   "group": {
+    "ru": "Новости (официальные бесплатные эфиры)",
+    "uk": "Новини (офіційні безкоштовні ефіри)",
+    "en": "News (official free broadcasts)"
+   },
+   "lang": "en",
+   "rules_url": "https://www3.nhk.or.jp/nhkworld/en/live/",
+   "license": {
+    "ru": "официальный бесплатный поток",
+    "uk": "офіційний безкоштовний потік",
+    "en": "official free stream"
+   },
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "md-01",
+   "kind": "media",
+   "title": {
+    "ru": "Big Buck Bunny",
+    "uk": "Big Buck Bunny",
+    "en": "Big Buck Bunny"
+   },
+   "link": "magnet:?xt=urn:btih:dd8255ecdc7ca55fb0bbf81323d87062db1f6d1c&dn=Big+Buck+Bunny&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2F",
+   "note": {
+    "ru": "CC BY 3.0, Blender Foundation",
+    "uk": "CC BY 3.0, Blender Foundation",
+    "en": "CC BY 3.0, Blender Foundation"
+   },
+   "group": {
+    "ru": "Кино (Blender Foundation, свободные лицензии)",
+    "uk": "Кіно (Blender Foundation, вільні ліцензії)",
+    "en": "Movies (Blender Foundation, free licences)"
+   },
+   "rules_url": "https://durian.blender.org/sharing/",
+   "type": "torrent",
+   "btih": "dd8255ecdc7ca55fb0bbf81323d87062db1f6d1c",
+   "torrent_url": "https://webtorrent.io/torrents/big-buck-bunny.torrent",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "md-02",
+   "kind": "media",
+   "title": {
+    "ru": "Sintel",
+    "uk": "Sintel",
+    "en": "Sintel"
+   },
+   "link": "magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10&dn=Sintel&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2F",
+   "note": {
+    "ru": "CC BY 3.0, Blender Foundation",
+    "uk": "CC BY 3.0, Blender Foundation",
+    "en": "CC BY 3.0, Blender Foundation"
+   },
+   "group": {
+    "ru": "Кино (Blender Foundation, свободные лицензии)",
+    "uk": "Кіно (Blender Foundation, вільні ліцензії)",
+    "en": "Movies (Blender Foundation, free licences)"
+   },
+   "rules_url": "https://durian.blender.org/sharing/",
+   "type": "torrent",
+   "btih": "08ada5a7a6183aae1e09d831df6748d566095a10",
+   "torrent_url": "https://webtorrent.io/torrents/sintel.torrent",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "md-03",
+   "kind": "media",
+   "title": {
+    "ru": "Tears of Steel",
+    "uk": "Tears of Steel",
+    "en": "Tears of Steel"
+   },
+   "link": "magnet:?xt=urn:btih:209c8226b299b308beaf2b9cd3fb49212dbd13ec&dn=Tears+of+Steel&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2F",
+   "note": {
+    "ru": "CC BY 3.0, Blender Foundation",
+    "uk": "CC BY 3.0, Blender Foundation",
+    "en": "CC BY 3.0, Blender Foundation"
+   },
+   "group": {
+    "ru": "Кино (Blender Foundation, свободные лицензии)",
+    "uk": "Кіно (Blender Foundation, вільні ліцензії)",
+    "en": "Movies (Blender Foundation, free licences)"
+   },
+   "rules_url": "https://durian.blender.org/sharing/",
+   "type": "torrent",
+   "btih": "209c8226b299b308beaf2b9cd3fb49212dbd13ec",
+   "torrent_url": "https://webtorrent.io/torrents/tears-of-steel.torrent",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "md-04",
+   "kind": "media",
+   "title": {
+    "ru": "Cosmos Laundromat",
+    "uk": "Cosmos Laundromat",
+    "en": "Cosmos Laundromat"
+   },
+   "link": "magnet:?xt=urn:btih:c9e15763f722f23e98a29decdfae341b98d53056&dn=Cosmos+Laundromat&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2F",
+   "note": {
+    "ru": "CC BY, Blender Foundation (версию лицензии смотри на странице фильма)",
+    "uk": "CC BY, Blender Foundation (версію ліцензії дивись на сторінці фільму)",
+    "en": "CC BY, Blender Foundation (check the licence version on the film page)"
+   },
+   "group": {
+    "ru": "Кино (Blender Foundation, свободные лицензии)",
+    "uk": "Кіно (Blender Foundation, вільні ліцензії)",
+    "en": "Movies (Blender Foundation, free licences)"
+   },
+   "rules_url": "https://durian.blender.org/sharing/",
+   "type": "torrent",
+   "btih": "c9e15763f722f23e98a29decdfae341b98d53056",
+   "torrent_url": "https://webtorrent.io/torrents/cosmos-laundromat.torrent",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "md-05",
+   "kind": "media",
+   "title": {
+    "ru": "Sintel: прямая ссылка, 1080p",
+    "uk": "Sintel: пряме посилання, 1080p",
+    "en": "Sintel: direct link, 1080p"
+   },
+   "link": "https://download.blender.org/durian/movies/Sintel.2010.1080p.mkv",
+   "note": {
+    "ru": "CC BY 3.0, Blender Foundation",
+    "uk": "CC BY 3.0, Blender Foundation",
+    "en": "CC BY 3.0, Blender Foundation"
+   },
+   "group": {
+    "ru": "Кино (Blender Foundation, свободные лицензии)",
+    "uk": "Кіно (Blender Foundation, вільні ліцензії)",
+    "en": "Movies (Blender Foundation, free licences)"
+   },
+   "rules_url": "https://studio.blender.org/films/",
+   "type": "http",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "md-06",
+   "kind": "media",
+   "title": {
+    "ru": "Tears of Steel: прямая ссылка, 720p",
+    "uk": "Tears of Steel: пряме посилання, 720p",
+    "en": "Tears of Steel: direct link, 720p"
+   },
+   "link": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+   "note": {
+    "ru": "CC BY 3.0, Blender Foundation",
+    "uk": "CC BY 3.0, Blender Foundation",
+    "en": "CC BY 3.0, Blender Foundation"
+   },
+   "group": {
+    "ru": "Кино (Blender Foundation, свободные лицензии)",
+    "uk": "Кіно (Blender Foundation, вільні ліцензії)",
+    "en": "Movies (Blender Foundation, free licences)"
+   },
+   "rules_url": "https://studio.blender.org/films/",
+   "type": "http",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "md-07",
+   "kind": "media",
+   "title": {
+    "ru": "Free Music Archive",
+    "uk": "Free Music Archive",
+    "en": "Free Music Archive"
+   },
+   "link": "https://freemusicarchive.org/",
+   "note": {
+    "ru": "музыка под лицензиями CC; лицензия указана у каждого трека (откроется в браузере)",
+    "uk": "музика за ліцензіями CC; ліцензію вказано в кожного треку (відкриється в браузері)",
+    "en": "music under CC licences; the licence is shown for every track (opens in the browser)"
+   },
+   "group": {
+    "ru": "Музыка и книги (открытые сайты)",
+    "uk": "Музика й книги (відкриті сайти)",
+    "en": "Music and books (open sites)"
+   },
+   "rules_url": "https://freemusicarchive.org/",
+   "type": "page",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "md-08",
+   "kind": "media",
+   "title": {
+    "ru": "LibriVox",
+    "uk": "LibriVox",
+    "en": "LibriVox"
+   },
+   "link": "https://librivox.org/",
+   "note": {
+    "ru": "аудиокниги в общественном достоянии (США); в других странах статус может быть другим (откроется в браузере)",
+    "uk": "аудіокниги в суспільному надбанні (США); в інших країнах статус може бути іншим (відкриється в браузері)",
+    "en": "audiobooks in the US public domain; the status may differ in other countries (opens in the browser)"
+   },
+   "group": {
+    "ru": "Музыка и книги (открытые сайты)",
+    "uk": "Музика й книги (відкриті сайти)",
+    "en": "Music and books (open sites)"
+   },
+   "rules_url": "https://librivox.org/",
+   "type": "page",
+   "status": "ok",
+   "fail_count": 0,
+   "last_ok": "2026-11-19",
+   "checked": "2026-11-19"
+  }
+ ]
+}
