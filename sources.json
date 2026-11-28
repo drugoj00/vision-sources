@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "entries": [
   {
    "id": "ch-dw-en",
@@ -28,8 +28,8 @@
    "audio_lang": "eng",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "ch-dw-de",
@@ -56,8 +56,8 @@
    },
    "audio_lang": "deu",
    "status": "dead",
-   "fail_count": 12,
-   "checked": "2026-11-27",
+   "fail_count": 13,
+   "checked": "2026-11-28",
    "reason": "dwamdstream104.akamaized.net: HTTP 404"
   },
   {
@@ -86,8 +86,8 @@
    },
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "ch-dw-ar",
@@ -115,8 +115,8 @@
    },
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "ch-f24-en",
@@ -146,8 +146,8 @@
    },
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "ch-f24-fr",
@@ -177,8 +177,8 @@
    },
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "ch-f24-es",
@@ -208,8 +208,8 @@
    },
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "ch-aje",
@@ -237,8 +237,8 @@
    "audio_lang": "eng",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "ch-nhk",
@@ -265,8 +265,8 @@
    },
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "md-01",
@@ -293,8 +293,8 @@
    "torrent_url": "https://webtorrent.io/torrents/big-buck-bunny.torrent",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "md-02",
@@ -321,8 +321,8 @@
    "torrent_url": "https://webtorrent.io/torrents/sintel.torrent",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "md-03",
@@ -349,8 +349,8 @@
    "torrent_url": "https://webtorrent.io/torrents/tears-of-steel.torrent",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "md-04",
@@ -377,8 +377,8 @@
    "torrent_url": "https://webtorrent.io/torrents/cosmos-laundromat.torrent",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "md-05",
@@ -403,8 +403,8 @@
    "type": "http",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "md-06",
@@ -429,8 +429,8 @@
    "type": "http",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "md-07",
@@ -455,8 +455,8 @@
    "type": "page",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   },
   {
    "id": "md-08",
@@ -481,8 +481,8 @@
    "type": "page",
    "status": "ok",
    "fail_count": 0,
-   "last_ok": "2026-11-27",
-   "checked": "2026-11-27"
+   "last_ok": "2026-11-28",
+   "checked": "2026-11-28"
   }
  ]
 }
